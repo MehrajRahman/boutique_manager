@@ -1,0 +1,68 @@
+name: boutique_manager
+description: "Zero-cost boutique management app with on-device AI."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State management
+  provider: ^6.1.2
+
+  # Local database (offline-first)
+  sqflite: ^2.4.2
+  path: ^1.9.1
+
+  # Supabase (free-tier cloud sync + auth + storage)
+  supabase_flutter: ^2.9.0
+
+  # Image handling
+  image_picker: ^1.1.2
+  image: ^4.5.3
+  cached_network_image: ^3.4.1
+  path_provider: ^2.1.5
+
+  # On-device ML (free visual search)
+  google_mlkit_image_labeling: ^0.14.0
+  camera: ^0.11.1
+
+  # Barcode scanning (on-device)
+  mobile_scanner: ^6.0.7
+
+  # PDF generation (on-device)
+  pdf: ^3.11.2
+  printing: ^5.14.2
+
+  # Local notifications (low-stock alerts)
+  flutter_local_notifications: ^18.0.1
+
+  # Sharing (WhatsApp/iMessage catalog)
+  share_plus: ^10.1.4
+
+  # UUID generation
+  uuid: ^4.5.1
+
+  # Connectivity check for sync
+  connectivity_plus: ^6.1.4
+
+  # Infinite scroll
+  infinite_scroll_pagination: ^4.1.0
+
+  # Date formatting
+  intl: ^0.20.2
+
+  # Persistent settings
+  shared_preferences: ^2.3.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
